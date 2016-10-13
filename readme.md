@@ -1,6 +1,6 @@
-# $package_name
+# mod-scaffold
 
-> $package_description
+> scaffold node packages
 
 background details relevant to understanding what this module does
 
@@ -9,9 +9,9 @@ background details relevant to understanding what this module does
 description of the example
 
 ```js
-const $package_var = require('$package_name');
+const modScaffold = require('mod-scaffold');
 
-console.log({$package_var});
+console.log({modScaffold});
 ```
 
 This will output
@@ -19,16 +19,16 @@ This will output
 ```
 ```
 
-[![Travis Build Status](https://img.shields.io/travis/$package_author/$package_name/master.svg)](http://travis-ci.org/$package_author/$package_name)
-[![Code Climate](https://img.shields.io/codeclimate/github/$package_author/$package_name.svg)](https://codeclimate.com/github/$package_author/$package_name)
-[![Coverage Status](https://coveralls.io/repos/github/$package_author/$package_name/badge.svg?branch=master)](https://coveralls.io/github/$package_author/$package_name?branch=master)
-[![NPM downloads](https://img.shields.io/npm/dt/$package_name.svg)](https://npmjs.org/package/$package_name)
+[![Travis Build Status](https://img.shields.io/travis/parro-it/mod-scaffold/master.svg)](http://travis-ci.org/parro-it/mod-scaffold)
+[![Code Climate](https://img.shields.io/codeclimate/github/parro-it/mod-scaffold.svg)](https://codeclimate.com/github/parro-it/mod-scaffold)
+[![Coverage Status](https://coveralls.io/repos/github/parro-it/mod-scaffold/badge.svg?branch=master)](https://coveralls.io/github/parro-it/mod-scaffold?branch=master)
+[![NPM downloads](https://img.shields.io/npm/dt/mod-scaffold.svg)](https://npmjs.org/package/mod-scaffold)
 
 
 ## API
 
 ```js
-const $package_var = (): object
+const modScaffold = (): object
 ```
 
 description of the function signature
@@ -38,7 +38,7 @@ description of the function signature
 With [npm](https://npmjs.org/) installed, run
 
 ```
-$ npm install $package_name
+$ npm install mod-scaffold
 ```
 
 ## See Also

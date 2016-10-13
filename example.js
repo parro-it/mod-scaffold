@@ -1,4 +1,4 @@
-import $package_var from '$package_name';
+import modScaffold from 'mod-scaffold';
 
-console.log({$package_var});
+console.log({modScaffold});
 
