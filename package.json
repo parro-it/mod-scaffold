@@ -1,13 +1,13 @@
 {
   "name": "mod-scaffold",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "scaffold node packages",
   "repository": "parro-it/mod-scaffold",
   "author": "Andrea <andrea@parro.it>",
   "license": "MIT",
   "bin": {
-  	"plus": "init.sh",
-  	"+": "init.sh"
+    "plus": "init.sh",
+    "+": "init.sh"
   },
   "files": [
     "index.js",
