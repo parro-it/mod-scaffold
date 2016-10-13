@@ -1,6 +1,6 @@
 {
   "name": "mod-scaffold",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "scaffold node packages",
   "repository": "parro-it/mod-scaffold",
   "author": "Andrea <andrea@parro.it>",
