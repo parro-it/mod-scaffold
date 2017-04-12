@@ -21,7 +21,7 @@
     }
   },
   "scripts": {
-    "test": "ava"
+    "test": "rimraf test-result && ava"
   },
   "keywords": [
     "scaffolding",
@@ -36,7 +36,8 @@
   "module": "main.js",
   "devDependencies": {
     "ava": "^0.19.1",
-    "execa": "^0.6.3"
+    "execa": "^0.6.3",
+    "rimraf": "^2.6.1"
   },
   "dependencies": {
     "gh": "^1.12.8",
