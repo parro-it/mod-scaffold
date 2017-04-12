@@ -3,3 +3,5 @@ node_js:
   - stable
 sudo: false
 
+before_script:
+	- yarn config set init-author parro-it
