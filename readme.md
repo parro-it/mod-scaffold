@@ -1,5 +1,7 @@
 # mod-scaffold
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/mod-scaffold.svg?token=6119013b48bd1a1608f2cf06b1c0c30c51dbea3c23063b5dbda9f760fe898cca)](https://greenkeeper.io/)
+
 > scaffold node packages
 
 background details relevant to understanding what this module does

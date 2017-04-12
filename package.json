@@ -28,10 +28,10 @@
   "tonicExampleFilename": "example.js",
   "module": "main.js",
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.19.1"
   },
   "dependencies": {
     "gh": "^1.12.8",
-    "yarn": "^0.16.0"
+    "yarn": "^0.22.0"
   }
 }
