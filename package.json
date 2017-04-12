@@ -22,15 +22,13 @@
      }
   },
   "scripts": {
-    "test": "rollup -c && ava && xo --ignore example.js --ignore index.js"
+    "test": "ava"
   },
   "keywords": ["scaffolding", "scaffold", "module", "template", "tools", "tool", "create"],
   "tonicExampleFilename": "example.js",
   "module": "main.js",
   "devDependencies": {
-    "ava": "^0.19.1",
-    "rollup": "^0.41.6",
-    "xo": "^0.18.1"
+    "ava": "^0.19.1"
   },
   "dependencies": {
     "gh": "^1.12.8",
