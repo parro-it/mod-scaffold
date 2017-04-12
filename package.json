@@ -12,22 +12,23 @@
   "files": [
     "index.js",
     "init.sh",
-    "example.js"
+    "example.js",
+    "main.js"
   ],
-  "scripts": {
-    "xo": "xo --ignore example.js --ignore index.js",
-    "test": "npm run setup --silent && ava && xo --ignore example.js --ignore index.js",
-    "setup": "rollup -f cjs main.js --output index.js",
-    "cover-test": "npm run setup --silent && nyc ava && npm run xo --ignore example.js --ignore index.js",
-    "cover-publish": "nyc report --reporter=text-lcov | coveralls"
+   "ava": {
+     "babel": {
+       "presets": [
+       ]
+     }
   },
-  "keywords": [],
+  "scripts": {
+    "test": "rollup -c && ava && xo --ignore example.js --ignore index.js"
+  },
+  "keywords": ["scaffolding", "scaffold", "module", "template", "tools", "tool", "create"],
   "tonicExampleFilename": "example.js",
-  "jsnext:main": "main.js",
+  "module": "main.js",
   "devDependencies": {
     "ava": "^0.16.0",
-    "coveralls": "^2.11.14",
-    "nyc": "^8.3.1",
     "rollup": "^0.36.3",
     "xo": "^0.17.0"
   },
