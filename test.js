@@ -1,5 +1,11 @@
+'use strict';
 const test = require('ava');
+const execa = require('execa');
 
-test('exports a function', t => {
-	t.is('function', 'function');
+const bin = `${__dirname}/init.sh`;
+
+test('exports a function', async t => {
+	const {stdout} = await execa(bin, ['template','test-result']);
+	t.is('stdout', 'function');
 });
+
