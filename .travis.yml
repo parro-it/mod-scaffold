@@ -4,4 +4,4 @@ node_js:
 sudo: false
 
 before_script:
-	- yarn config set init-author parro-it
+  - yarn config set init-author parro-it
