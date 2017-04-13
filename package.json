@@ -21,6 +21,7 @@
     }
   },
   "scripts": {
+    "init": "sh npm-scaffold.sh",
     "test": "rimraf test-result && ava"
   },
   "keywords": [
