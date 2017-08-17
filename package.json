@@ -36,12 +36,12 @@
   "tonicExampleFilename": "example.js",
   "module": "main.js",
   "devDependencies": {
-    "ava": "^0.21.0",
     "execa": "^0.8.0",
+    "ava": "^0.22.0",
     "rimraf": "^2.6.1"
   },
   "dependencies": {
     "gh": "^1.12.8",
-    "yarn": "^0.24.5"
+    "yarn": "^0.28.4"
   }
 }
