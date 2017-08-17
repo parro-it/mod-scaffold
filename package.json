@@ -37,7 +37,7 @@
   "module": "main.js",
   "devDependencies": {
     "ava": "^0.22.0",
-    "execa": "^0.6.3",
+    "execa": "^0.7.0",
     "rimraf": "^2.6.1"
   },
   "dependencies": {
