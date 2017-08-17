@@ -36,8 +36,8 @@
   "tonicExampleFilename": "example.js",
   "module": "main.js",
   "devDependencies": {
+    "execa": "^0.8.0",
     "ava": "^0.22.0",
-    "execa": "^0.6.3",
     "rimraf": "^2.6.1"
   },
   "dependencies": {
