@@ -1,4 +1,6 @@
-cd -;
+cd $CUR_DIR;
+pwd;
+
 export PATH=./node_modules/.bin:$PATH
 export package_author=`npm config get init-author`
 export template=$1

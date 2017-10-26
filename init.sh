@@ -1,5 +1,5 @@
-#!/bin/zsh
-filename=${0:a:h}
-echo $filename
-cd `dirname $filename`
-npm run init -- $1 $2
+#!/bin/sh
+filename=`readlink -f ${0}`;
+export CUR_DIR=`pwd`;
+cd `dirname $filename`;
+npm run init -- $1 $2;
