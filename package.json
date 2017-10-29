@@ -9,12 +9,7 @@
     "create": "init.sh",
     "+": "init.sh"
   },
-  "files": [
-    "index.js",
-    "init.sh",
-    "example.js",
-    "main.js"
-  ],
+  "files": ["npm-scaffold.sh", "init.sh"],
   "ava": {
     "babel": {
       "presets": []
@@ -33,7 +28,6 @@
     "tool",
     "create"
   ],
-  "tonicExampleFilename": "example.js",
   "module": "main.js",
   "devDependencies": {
     "execa": "^0.8.0",
