@@ -1,6 +1,6 @@
 {
   "name": "mod-scaffold",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "scaffold node packages",
   "repository": "parro-it/mod-scaffold",
   "author": "Andrea <andrea@parro.it>",
@@ -9,7 +9,10 @@
     "create": "init.sh",
     "+": "init.sh"
   },
-  "files": ["npm-scaffold.sh", "init.sh"],
+  "files": [
+    "npm-scaffold.sh",
+    "init.sh"
+  ],
   "ava": {
     "babel": {
       "presets": []
