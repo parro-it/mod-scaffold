@@ -33,7 +33,7 @@
   ],
   "module": "main.js",
   "devDependencies": {
-    "execa": "^0.8.0",
+    "execa": "^3.3.0",
     "ava": "^0.23.0",
     "rimraf": "^2.6.1"
   },
